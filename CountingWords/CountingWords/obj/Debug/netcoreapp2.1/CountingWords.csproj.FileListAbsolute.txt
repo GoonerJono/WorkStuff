@@ -9,3 +9,14 @@ C:\Users\xboxl\source\repos\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\
 C:\Users\xboxl\source\repos\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfo.cs
 C:\Users\xboxl\source\repos\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.dll
 C:\Users\xboxl\source\repos\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.pdb
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.deps.json
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.runtimeconfig.json
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.runtimeconfig.dev.json
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.dll
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.pdb
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.csprojAssemblyReference.cache
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.csproj.CoreCompileInputs.cache
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfoInputs.cache
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfo.cs
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.dll
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.pdb

@@ -10,12 +10,9 @@ namespace CountingWords
         static void Main(string[] args)
         {
             string text = "";
-            using (Parser parser = new Parser(@"C:\Users\xboxl\OneDrive\Documents\2600-0.txt"))
+            using (StreamReader stream = new StreamReader(@"C:\Users\xboxl\OneDrive\Documents\2600-0.txt"))
             {
-                using (TextReader reader = parser.GetText())
-                {
-                     text = reader.ReadToEnd();
-                }
+                 text = stream.ReadToEnd();
             }
             // var test = "This is a new sentence used to determine how many words are in the sentence";
             char[] chars = { ' ', '.', ',', ';', ':', '?', '\n', '\r' };

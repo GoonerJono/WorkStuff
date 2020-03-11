@@ -1789,11 +1789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xboxl\\source\\repos\\CountingWords\\CountingWords\\CountingWords.csproj",
+      "projectUniqueName": "C:\\Users\\xboxl\\OneDrive\\Documents\\GitHub\\WorkStuff\\CountingWords\\CountingWords\\CountingWords.csproj",
       "projectName": "CountingWords",
-      "projectPath": "C:\\Users\\xboxl\\source\\repos\\CountingWords\\CountingWords\\CountingWords.csproj",
+      "projectPath": "C:\\Users\\xboxl\\OneDrive\\Documents\\GitHub\\WorkStuff\\CountingWords\\CountingWords\\CountingWords.csproj",
       "packagesPath": "C:\\Users\\xboxl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xboxl\\source\\repos\\CountingWords\\CountingWords\\obj\\",
+      "outputPath": "C:\\Users\\xboxl\\OneDrive\\Documents\\GitHub\\WorkStuff\\CountingWords\\CountingWords\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
