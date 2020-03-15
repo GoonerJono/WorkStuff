@@ -8,26 +8,40 @@ namespace CountingWords
 {
     class Program
     {
+        public static char[] chars = { ' ', '.', ',', ';', ':', '?', '\n', '\r', '\"' };
+        public static Stopwatch sw = new Stopwatch();
+        public static string filePath;
         static void Main(string[] args)
         {
-            Stopwatch sw = new Stopwatch();
             sw.Start();
-            string text = "";
-            using (StreamReader stream = new StreamReader(@"C:\Users\xboxl\OneDrive\Documents\2600-0.txt"))
+            Console.WriteLine("Enter a file path");
+            filePath = Console.ReadLine();
+            if (File.Exists(filePath))
             {
-                text = stream.ReadToEnd();
+                ProcessFile(filePath);
             }
-            char[] chars = { ' ', '.', ',', ';', ':', '?', '\n', '\r', '\"' };
-            var splitText = text.Split(chars, StringSplitOptions.RemoveEmptyEntries);
-            var WordsCounted = CountWords(splitText);
-            Console.WriteLine($"Total count: {WordsCounted.Count}");
-            var sortedDict = Top50Count(WordsCounted);
+            else
+            {
+                Console.WriteLine("Please enter valid file path");
+                filePath = Console.ReadLine();
+                ProcessFile(filePath);
+            }
+           
+        }
+
+        private static void ProcessFile(string FIlePath)
+        {
+            string readFileString = StreamReader(filePath);
+            var splitFileText = readFileString.Split(chars, StringSplitOptions.RemoveEmptyEntries);
+            var wordsCount = CountWords(splitFileText);
+            Console.WriteLine($"Total count: {wordsCount.Count}");
+            var sortedDict = Top50Count(wordsCount);
             Console.WriteLine($"Sorted word count");
             foreach (var t in sortedDict)
             {
                 Console.WriteLine($"Total occurrences of {t.Key}: {t.Value}");
             }
-            var greaterThanSix = Top50CountLengthSix(WordsCounted); 
+            var greaterThanSix = Top50CountLengthSix(wordsCount);
             Console.WriteLine($"Top 50 words length greater than six in length");
             foreach (var t in greaterThanSix)
             {
@@ -35,9 +49,20 @@ namespace CountingWords
             }
             sw.Stop();
             Console.WriteLine($"Time taken to run: {sw.Elapsed}");
-            Console.ReadLine();
+            Console.WriteLine("To close press c");
+            var entervalue = Console.ReadLine();
+            if (entervalue.ToLower() == "c")
+            {
+                Environment.Exit(0);
+            }
         }
-
+        private static string StreamReader(string filePath)
+        {
+            using (StreamReader stream = new StreamReader(filePath))
+            {
+                return stream.ReadToEnd();
+            }
+        }
         private static Dictionary<string, int> CountWords(string[] words)
         {
 

@@ -19,3 +19,4 @@ C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\o
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfo.cs
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.dll
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.pdb
+C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.csprojAssemblyReference.cache
