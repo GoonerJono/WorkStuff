@@ -14,7 +14,6 @@ C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\b
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.runtimeconfig.dev.json
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.dll
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\bin\Debug\netcoreapp2.1\CountingWords.pdb
-C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.csprojAssemblyReference.cache
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.csproj.CoreCompileInputs.cache
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfoInputs.cache
 C:\Users\xboxl\OneDrive\Documents\GitHub\WorkStuff\CountingWords\CountingWords\obj\Debug\netcoreapp2.1\CountingWords.AssemblyInfo.cs
