@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace CountingWords
 {
@@ -60,13 +61,16 @@ namespace CountingWords
         {
             using (StreamReader stream = new StreamReader(filePath))
             {
-                return stream.ReadToEnd();
+                var text = stream.ReadToEnd();
+                var nextext = Regex.Replace(text, @"[^0-9a-zA-Z]", " ");
+                return nextext;
             }
         }
         private static Dictionary<string, int> CountWords(string[] words)
         {
 
             Dictionary<string, int> wordandcount = new Dictionary<string, int>();
+            
             foreach (var word in words)
             {
                 if (!wordandcount.ContainsKey(word))
@@ -79,6 +83,7 @@ namespace CountingWords
                 }
             }
             return wordandcount;
+            
         }
 
         private static Dictionary<string, int> Top50Count(Dictionary<string, int> ListValues)
